@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- deps: Support Next.js 14 / 15 as peer dependencies ([#13](https://github.com/LayerXcom/next-navigation-guard/pulls/13)).
+- deps: Support Next.js 14 / 15 as peer dependencies ([#13](https://github.com/LayerXcom/next-navigation-guard/pulls/13)). @zachelrath
 
 ## [0.1.1] - 2024-10-07
 
