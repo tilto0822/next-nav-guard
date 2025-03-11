@@ -7,7 +7,7 @@ let setupDone = false;
 let writeState = () => {};
 
 export function newToken() {
-  return crypto.randomUUID().substring(0, 8);
+  return Math.random().toString(36).substring(2);
 }
 
 // Next.js also modifies history.pushState and history.replaceState in useEffect.
