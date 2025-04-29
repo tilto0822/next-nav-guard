@@ -4,6 +4,7 @@ import { RefreshButton } from "./RefreshButton";
 import { NavigationGuardToggle } from "./NavigationGuardToggle";
 import { BackButton } from "./BackButton";
 import { ForwardButton } from "./ForwardButton";
+import { NavigationGuardStatus } from "./NavigationGuardStatus";
 
 export function SharedPage({
   current,
@@ -64,6 +65,7 @@ export function SharedPage({
             <ForwardButton />
           </span>
         </div>
+        <NavigationGuardStatus />
       </main>
     </div>
   );
