@@ -1,6 +1,6 @@
 "use client";
 
-import { useNavigationGuard } from "next-navigation-guard";
+import { useNavigationGuard } from "next-nav-guard";
 import React, { useState } from "react";
 
 export function NavigationGuardToggle(props: { confirm: string }) {

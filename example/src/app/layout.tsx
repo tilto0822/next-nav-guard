@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { NavigationGuardProvider } from "next-navigation-guard";
+import { NavigationGuardProvider } from "next-nav-guard";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,9 +15,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "next-navigation-guard Example",
+  title: "next-nav-guard Example",
   description:
-    "Demo for next-navigation-guard library which provides a navigation guard for Next.js.",
+    "Demo for next-nav-guard library which provides a navigation guard for Next.js.",
 };
 
 export default function RootLayout({

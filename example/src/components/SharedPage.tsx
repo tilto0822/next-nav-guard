@@ -15,7 +15,7 @@ export function SharedPage({
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>next-navigation-guard Example</h1>
+        <h1>next-nav-guard Example</h1>
         <div>
           Current Page: {mode} {current}
         </div>

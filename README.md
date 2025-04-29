@@ -1,7 +1,9 @@
-# next-navigation-guard
+# next-nav-guard
 
 You use Next.js, and you want to show "You have unsaved changes that will be lost." dialog when user leaves page?
 This library is just for you!
+
+Support also Next.js 15+, React 19+
 
 ## Demo
 
@@ -15,11 +17,11 @@ This library is just for you!
 ## Installation
 
 ```bash
-npm install next-navigation-guard
+npm install next-nav-guard
 # or
-yarn install next-navigation-guard
+yarn install next-nav-guard
 # or
-pnpm install next-navigation-guard
+pnpm install next-nav-guard
 ```
 
 - App Router: app/layout.tsx
@@ -74,3 +76,7 @@ pnpm install next-navigation-guard
   ```
 
 See working example in example/ directory and its `NavigationGuardToggle` component.
+
+## Thanks to
+
+This package is forked from [next-navigation-guard](https://github.com/LayerXcom/next-navigation-guard)
