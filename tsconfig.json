@@ -6,12 +6,18 @@
     "jsx": "react",
     "module": "node16",
     "moduleResolution": "node16",
+    
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
+    
+    "rootDir": "./src",
     "outDir": "./dist",
+
+    "baseUrl": ".",
+    
     "declaration": true,
     "declarationMap": false,
     "sourceMap": false,
