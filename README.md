@@ -1,4 +1,4 @@
-# next-nav-guard
+# next-naviguard
 
 You use Next.js, and you want to show "You have unsaved changes that will be lost." dialog when user leaves page?
 This library is just for you!
@@ -17,11 +17,11 @@ Support also Next.js 15+, React 19+
 ## Installation
 
 ```bash
-npm install next-nav-guard
+npm install next-naviguard
 # or
-yarn install next-nav-guard
+yarn install next-naviguard
 # or
-pnpm install next-nav-guard
+pnpm install next-naviguard
 ```
 
 - App Router: app/layout.tsx
@@ -79,7 +79,7 @@ pnpm install next-nav-guard
   - it will prevent navigation if any navGuard is enabled.
 
   ```tsx
-  import { GuardLink } from "next-nav-guard";
+  import { GuardLink } from "next-naviguard";
 
   export function Comp() {
     // basically, support same props in 'Link'.

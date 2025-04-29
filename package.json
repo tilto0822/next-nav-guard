@@ -1,5 +1,5 @@
 {
-  "name": "next-nav-guard",
+  "name": "next-naviguard",
   "version": "0.2.0",
   "description": "Navigation Guard for Next.js App Router and Pages Router.",
   "main": "./dist/index.js",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tilto0822/next-nav-guard.git"
+    "url": "https://github.com/tilto0822/next-naviguard.git"
   },
   "packageManager": "pnpm@10.10.0",
   "peerDependencies": {

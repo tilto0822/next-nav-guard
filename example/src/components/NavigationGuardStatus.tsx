@@ -1,6 +1,6 @@
 "use client";
 
-import { useNavigationGuardStatus } from "next-nav-guard";
+import { useNavigationGuardStatus } from "next-naviguard";
 
 export function NavigationGuardStatus() {
     const { isGuardActive } = useNavigationGuardStatus();
