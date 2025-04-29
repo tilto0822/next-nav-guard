@@ -1,10 +1,10 @@
-import Link from "next/link";
 import styles from "../app/page.module.css";
 import { RefreshButton } from "./RefreshButton";
 import { NavigationGuardToggle } from "./NavigationGuardToggle";
 import { BackButton } from "./BackButton";
 import { ForwardButton } from "./ForwardButton";
 import { NavigationGuardStatus } from "./NavigationGuardStatus";
+import { GuardLink } from "next-nav-guard";
 
 export function SharedPage({
   current,
@@ -25,13 +25,13 @@ export function SharedPage({
             <div style={{ marginBottom: 16 }}>App Router</div>
             <ol>
               <li>
-                <Link href="/page1">Page1</Link>
+                <GuardLink href="/page1">Page1</GuardLink>
               </li>
               <li>
-                <Link href="/page2">Page2</Link>
+                <GuardLink href="/page2">Page2</GuardLink>
               </li>
               <li>
-                <Link href="/page3">Page3</Link>
+                <GuardLink href="/page3">Page3</GuardLink>
               </li>
             </ol>
           </div>
@@ -39,13 +39,13 @@ export function SharedPage({
             <div style={{ marginBottom: 16 }}>Pages Router</div>
             <ol>
               <li>
-                <Link href="/pages-router/page1">Page1</Link>
+                <GuardLink href="/pages-router/page1">Page1</GuardLink>
               </li>
               <li>
-                <Link href="/pages-router/page2">Page2</Link>
+                <GuardLink href="/pages-router/page2">Page2</GuardLink>
               </li>
               <li>
-                <Link href="/pages-router/page3">Page3</Link>
+                <GuardLink href="/pages-router/page3">Page3</GuardLink>
               </li>
             </ol>
           </div>

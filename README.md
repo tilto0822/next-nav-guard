@@ -75,6 +75,21 @@ pnpm install next-nav-guard
   )
   ```
 
+- Guard 'Link' component navigate action (Next.js 15.3+)
+  - it will prevent navigation if any navGuard is enabled.
+
+  ```tsx
+  import { GuardLink } from "next-nav-guard";
+
+  export function Comp() {
+    // basically, support same props in 'Link'.
+    // but 'as', 'ref' are excepts.
+    // 'as' prop provide "override" for your custom 'Link' Component.
+    // 'ref' prop is not working because it used for navigation handling in comp.
+    return <GuardLink href="/">Go Home</GuardLink>
+  }
+  ```
+
 See working example in example/ directory and its `NavigationGuardToggle` component.
 
 ## Thanks to
