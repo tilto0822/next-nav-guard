@@ -1,6 +1,6 @@
 {
   "name": "next-nav-guard",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Navigation Guard for Next.js App Router and Pages Router.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
