@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2025-04-29
+
+### Fixed
+
+- Fix type error when using GuardLink with custom Link component. by [@tilto0822](https://github.com/tilto0822)
+
 ## [0.2.0] - 2025-04-29
 
 Forked from [next-navigation-guard](https://github.com/LayerXcom/next-navigation-guard)
@@ -43,7 +49,8 @@ Forked from [next-navigation-guard](https://github.com/LayerXcom/next-navigation
 
 - The initial release of next-navigation-guard.
 
-[unreleased]: https://github.com/tilto0822/next-naviguard/compare/v0.2.0...HEAD
+[unreleased]: https://github.com/tilto0822/next-naviguard/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/tilto0822/next-naviguard/releases/tag/v0.2.1
 [0.2.0]: https://github.com/tilto0822/next-naviguard/releases/tag/v0.2.0
 [0.1.2]: https://github.com/LayerXcom/next-navigation-guard/releases/tag/v0.1.2
 [0.1.1]: https://github.com/LayerXcom/next-navigation-guard/releases/tag/v0.1.1
