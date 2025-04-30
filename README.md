@@ -7,7 +7,7 @@ Support also Next.js 15+, React 19+
 
 ## Demo
 
-[https://layerxcom.github.io/next-navigation-guard/](https://layerxcom.github.io/next-navigation-guard/)
+[https://tilto0822.github.io/next-naviguard/](https://tilto0822.github.io/next-naviguard/)
 
 ## How does it work?
 
